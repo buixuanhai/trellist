@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useRepoReducer add card 1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "id": "y",
+      "stage": "confirmed",
+      "text": "Vulnerability 3",
+    },
+    Object {
+      "id": "z",
+      "stage": "confirmed",
+      "text": "Vulnerability 4",
+    },
+    Object {
+      "id": "t",
+      "stage": "confirmed",
+      "text": "new card",
+    },
+  ],
+  "id": "b",
+  "stage": "confirmed",
+  "title": "Confirmed",
+}
+`;
+
+exports[`useRepoReducer delete card 1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "id": "y",
+      "stage": "confirmed",
+      "text": "Vulnerability 3",
+    },
+  ],
+  "id": "b",
+  "stage": "confirmed",
+  "title": "Confirmed",
+}
+`;
+
+exports[`useRepoReducer move card in list 1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "id": "x",
+      "stage": "open",
+      "text": "Vulnerability 2",
+    },
+    Object {
+      "id": "w",
+      "stage": "open",
+      "text": "Vulnerability 1",
+    },
+  ],
+  "id": "a",
+  "stage": "open",
+  "title": "Open",
+}
+`;
+
+exports[`useRepoReducer test move card between lists 1`] = `
+Object {
+  "id": "1",
+  "lists": Array [
+    Object {
+      "cards": Array [
+        Object {
+          "id": "x",
+          "stage": "open",
+          "text": "Vulnerability 2",
+        },
+      ],
+      "id": "a",
+      "stage": "open",
+      "title": "Open",
+    },
+    Object {
+      "cards": Array [
+        Object {
+          "id": "y",
+          "stage": "confirmed",
+          "text": "Vulnerability 3",
+        },
+        Object {
+          "id": "z",
+          "stage": "confirmed",
+          "text": "Vulnerability 4",
+        },
+      ],
+      "id": "b",
+      "stage": "confirmed",
+      "title": "Confirmed",
+    },
+    Object {
+      "cards": Array [
+        Object {
+          "id": "m",
+          "stage": "falsePositive",
+          "text": "Vulnerability 5",
+        },
+        Object {
+          "id": "n",
+          "stage": "falsePositive",
+          "text": "Vulnerability 6",
+        },
+      ],
+      "id": "c",
+      "stage": "falsePositive",
+      "title": "False Positive",
+    },
+    Object {
+      "cards": Array [
+        Object {
+          "id": "w",
+          "stage": "fixed",
+          "text": "Vulnerability 1",
+        },
+        Object {
+          "id": "o",
+          "stage": "fixed",
+          "text": "Vulnerability 7",
+        },
+        Object {
+          "id": "p",
+          "stage": "fixed",
+          "text": "Vulnerability 8",
+        },
+      ],
+      "id": "d",
+      "stage": "fixed",
+      "title": "Fixed",
+    },
+  ],
+  "name": "Repo 1",
+}
+`;
+
+exports[`useRepoReducer update card update card note  1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "id": "y",
+      "stage": "confirmed",
+      "text": "Vulnerability 3",
+    },
+    Object {
+      "id": "z",
+      "note": "Add new note",
+      "stage": "confirmed",
+      "text": "Vulnerability 4",
+    },
+  ],
+  "id": "b",
+  "stage": "confirmed",
+  "title": "Confirmed",
+}
+`;
+
+exports[`useRepoReducer update card update card title 1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "id": "y",
+      "stage": "confirmed",
+      "text": "Vulnerability 3",
+    },
+    Object {
+      "id": "z",
+      "stage": "confirmed",
+      "text": "Vulnerability 4 (UPDATED)",
+    },
+  ],
+  "id": "b",
+  "stage": "confirmed",
+  "title": "Confirmed",
+}
+`;

@@ -1,0 +1,68 @@
+[
+    {
+      "name": "Repo 1",
+      "id": "1",
+      "lists": [
+        {
+          "title": "Open",
+          "stage": "open",
+          "cards": [
+            {
+              "text": "Vulnerability 1",
+              "id": "w"
+            },
+            {
+              "text": "Vulnerability 2",
+              "id": "x"
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "title": "Confirmed",
+          "stage": "confirmed",
+          "cards": [
+            {
+              "text": "Vulnerability 3",
+              "id": "y"
+            },
+            {
+              "text": "Vulnerability 4",
+              "id": "z"
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "title": "False Positive",
+          "stage": "falsePositive",
+          "cards": [
+            {
+              "text": "Vulnerability 5",
+              "id": "m"
+            },
+            {
+              "text": "Vulnerability 6",
+              "id": "n"
+            }
+          ],
+          "id": "c"
+        },
+        {
+          "title": "Fixed",
+          "stage": "fixed",
+          "cards": [
+            {
+              "text": "Vulnerability 7",
+              "id": "o"
+            },
+            {
+              "text": "Vulnerability 8",
+              "id": "p"
+            }
+          ],
+          "id": "d"
+        }
+      ]
+    }
+]
